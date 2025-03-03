@@ -1,0 +1,211 @@
+/***************************************************************************//**
+* \file pse84_ns_flash.icf
+* \version 1.0.0
+*
+* Linker file for the IAR compiler.
+*
+* The main purpose of this file is to describe how the sections in the
+* input files should be mapped into the output file, and to control the memory
+* layout of the output file.
+*
+* \note The entry point location starts at 0x0200E000. The valid
+* application image should be placed there.
+*
+* \note The linker files included with the PDL template projects must be generic
+* and handle all common use cases. Your project may not use every section
+* defined in the linker files. In that case you may see warnings during the
+* build process. In your project, you can simply comment out or remove the
+* relevant code in the linker file.
+*
+********************************************************************************
+* \copyright
+* Copyright (c) (2020-2023), Cypress Semiconductor Corporation (an Infineon company) or
+* an affiliate of Cypress Semiconductor Corporation.
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*******************************************************************************/
+include "../../COMPONENT_CM33/TOOLCHAIN_IAR/pse84_common.icf";
+
+define symbol CODE_XIP0_OFFSET           = XIP0_CM55NS_APP_OFFSET;
+define symbol CODE_XIP0_VMA              = XIP0_NS_SAHB_START + CODE_XIP0_OFFSET;
+define symbol CODE_XIP0_LMA              = XIP0_NS_SAHB_START + CODE_XIP0_OFFSET;
+define symbol CODE_XIP0_SIZE             = XIP0_CM55NS_APP_SIZE;
+
+define symbol CODE_RRAM_OFFSET           = RRAM_CM55NS_APP_OFFSET;
+define symbol CODE_RRAM_VMA              = RRAM_NVM_MAIN_NS_CBUS_START + CODE_RRAM_OFFSET;
+define symbol CODE_RRAM_LMA              = RRAM_NVM_MAIN_NS_CBUS_START + CODE_RRAM_OFFSET;
+define symbol CODE_RRAM_SIZE             = RRAM_CM55NS_APP_SIZE;
+
+define symbol CODE_ITCM_OFFSET           = 0x00000000;
+define symbol CODE_ITCM_VMA              = ITCM_NS_START;
+define symbol CODE_ITCM_LMA              = ITCM_NS_START;
+define symbol CODE_ITCM_SIZE             = ITCM_SIZE;
+
+define symbol CODE_SOCMEMSRAM_OFFSET     = SOCMEMSRAM_CM55NS_APP_OFFSET;
+define symbol CODE_SOCMEMSRAM_VMA        = SOCMEMSRAM_NS_SAHB_START + CODE_SOCMEMSRAM_OFFSET;
+define symbol CODE_SOCMEMSRAM_LMA        = SOCMEMSRAM_NS_SAHB_START + CODE_SOCMEMSRAM_OFFSET;
+define symbol CODE_SOCMEMSRAM_SIZE       = SOCMEMSRAM_CM55NS_APP_SIZE;
+
+define symbol SRAM1_SHARED_VMA           = (SRAM1_NS_SAHB_START + SRAM1_SIZE - SRAM1_SHARED_SIZE) + SRAM1_SHARED_CM33S_SIZE + SRAM1_SHARED_CM33NS_SIZE;
+define symbol SRAM1_SHARED_LMA           = (SRAM1_NS_SAHB_START + SRAM1_SIZE - SRAM1_SHARED_SIZE) + SRAM1_SHARED_CM33S_SIZE + SRAM1_SHARED_CM33NS_SIZE;
+
+define symbol RESERVED_SOCMEMSRAM_VMA    = (SOCMEMSRAM_NS_SAHB_START + SOCMEMSRAM_SHARED_OFFSET);
+define symbol RESERVED_SOCMEMSRAM_LMA    = (SOCMEMSRAM_NS_SAHB_START + SOCMEMSRAM_SHARED_OFFSET);
+define symbol RESERVED_SOCMEMSRAM_SIZE   = SOCMEMSRAM_SHARED_SIZE;
+
+define symbol CODE_SRAM_OFFSET           = SRAM1_CM55NS_APP_OFFSET;
+define symbol CODE_SRAM_VMA              = SRAM1_NS_SAHB_START + CODE_SRAM_OFFSET;
+define symbol CODE_SRAM_LMA              = SRAM1_NS_SAHB_START + CODE_SRAM_OFFSET;
+define symbol CODE_SRAM_SIZE             = SRAM1_CM55NS_APP_SIZE;
+
+define symbol DATA_DTCM_VMA              = DTCM_NS_START;
+define symbol DATA_DTCM_LMA              = DTCM_NS_START;
+define symbol DATA_DTCM_SIZE             = DTCM_SIZE;
+
+define symbol DATA_SRAM_OFFSET           = CODE_SRAM_OFFSET + CODE_SRAM_SIZE;
+define symbol DATA_SRAM_VMA              = SRAM1_NS_SAHB_START + DATA_SRAM_OFFSET;
+define symbol DATA_SRAM_LMA              = SRAM1_NS_SAHB_START + DATA_SRAM_OFFSET;
+define symbol DATA_SRAM_SIZE             = SRAM1_SIZE - SRAM1_SHARED_SIZE - CODE_SRAM_SIZE;
+
+define symbol DATA_SOCMEMSRAM_OFFSET     = SOCMEMSRAM_CM55NS_DATA_OFFSET;
+define symbol DATA_SOCMEMSRAM_VMA        = SOCMEMSRAM_NS_SAHB_START + DATA_SOCMEMSRAM_OFFSET;
+define symbol DATA_SOCMEMSRAM_LMA        = SOCMEMSRAM_NS_SAHB_START + DATA_SOCMEMSRAM_OFFSET;
+define symbol DATA_SOCMEMSRAM_SIZE       = SOCMEMSRAM_CM55NS_DATA_SIZE;
+
+define symbol RAMVECTORS_ALIGNMENT       = CM55_RAMVECTORS_ALIGNMENT;
+
+/*-----------------------------------------------------------------------------------*/
+
+define symbol CODE_1_VMA                 = CODE_XIP0_VMA;
+define symbol CODE_1_LMA                 = CODE_XIP0_LMA;
+define symbol CODE_1_SIZE                = CODE_XIP0_SIZE;
+
+define symbol CODE_2_VMA                 = CODE_ITCM_VMA;
+define symbol CODE_2_LMA                 = CODE_ITCM_LMA;
+define symbol CODE_2_SIZE                = CODE_ITCM_SIZE;
+
+define symbol CODE_3_VMA                 = CODE_SOCMEMSRAM_VMA;
+define symbol CODE_3_LMA                 = CODE_SOCMEMSRAM_LMA;
+define symbol CODE_3_SIZE                = CODE_SOCMEMSRAM_SIZE;
+
+define symbol CODE_4_VMA                 = CODE_SRAM_VMA;
+define symbol CODE_4_LMA                 = CODE_SRAM_LMA;
+define symbol CODE_4_SIZE                = CODE_SRAM_SIZE;
+
+define symbol CODE_5_VMA                 = CODE_RRAM_VMA;
+define symbol CODE_5_LMA                 = CODE_RRAM_LMA;
+define symbol CODE_5_SIZE                = CODE_RRAM_SIZE;
+
+define symbol DATA_1_VMA                 = DATA_DTCM_VMA;
+define symbol DATA_1_LMA                 = DATA_DTCM_LMA;
+define symbol DATA_1_SIZE                = DATA_DTCM_SIZE;
+
+define symbol DATA_2_VMA                 = DATA_SOCMEMSRAM_VMA;
+define symbol DATA_2_LMA                 = DATA_SOCMEMSRAM_LMA;
+define symbol DATA_2_SIZE                = DATA_SOCMEMSRAM_SIZE;
+
+define symbol SHARED_MEM0_VMA            = SRAM1_SHARED_VMA;
+define symbol SHARED_MEM0_LMA            = SRAM1_SHARED_LMA;
+define symbol SHARED_MEM0_SIZE           = SRAM1_SHARED_SIZE;
+
+define symbol SHARED_MEM1_VMA            = RESERVED_SOCMEMSRAM_VMA;
+define symbol SHARED_MEM1_LMA            = RESERVED_SOCMEMSRAM_LMA;
+define symbol SHARED_MEM1_SIZE           = RESERVED_SOCMEMSRAM_SIZE;
+
+define symbol SOCMEMSRAM_GPUBUF_VMA      = (SOCMEMSRAM_NS_SAHB_START + SOCMEMSRAM_GPUBUF_OFFSET);
+define symbol GPU_BUF_VMA                = SOCMEMSRAM_GPUBUF_VMA;
+define symbol GPU_BUF_LMA                = SOCMEMSRAM_GPUBUF_VMA;
+define symbol GPU_BUF_SIZE               = SOCMEMSRAM_GPUBUF_SIZE;
+
+define symbol __app_text1_vma__          = CODE_1_VMA;
+
+define symbol __app_text2_vma__          = CODE_2_VMA;
+
+define symbol __app_text3_vma__          = CODE_3_VMA;
+
+define symbol __app_text4_vma__          = CODE_4_VMA;
+
+define symbol __app_text5_vma__          = CODE_5_VMA;
+
+define symbol __data1_vma__              = DATA_1_VMA;
+define symbol __data2_vma__              = DATA_2_VMA;
+
+/* To set stack size in application add makefile ldflags: --config_def APP_MSP_STACK_SIZE=0x00001000 */
+if (!isdefinedsymbol(APP_MSP_STACK_SIZE)) {
+  define symbol APP_MSP_STACK_SIZE   = MSP_STACK_SIZE;
+}
+
+define symbol __ICFEDIT_size_cstack__ = APP_MSP_STACK_SIZE;
+define symbol __ICFEDIT_intvec_start__ = CODE_1_VMA;
+/* Defines the minimum heap size. The actual heap size will be expanded to the end of the stack region */
+if (!isdefinedsymbol(__HEAP_SIZE)) {
+    define symbol __size_heap__ = HEAP_SIZE;
+} else {
+  define symbol __size_heap__ = __HEAP_SIZE;
+}
+
+
+/*
+;------------- <<< end of configuration section >>> ---------------------------
+*/
+/*-----------------------------------------------------------------------------------*/
+define memory mem with size = 4G;
+
+define region code_1_region = mem:[from CODE_1_VMA to CODE_1_VMA + CODE_1_SIZE];
+define region code_2_region = mem:[from CODE_2_VMA to CODE_2_VMA + CODE_2_SIZE];
+define region code_3_region = mem:[from CODE_3_VMA to CODE_3_VMA + CODE_3_SIZE];
+define region code_4_region = mem:[from CODE_4_VMA to CODE_4_VMA + CODE_4_SIZE];
+define region code_5_region = mem:[from CODE_5_VMA to CODE_5_VMA + CODE_5_SIZE];
+define region data_1_region = mem:[from DATA_1_VMA to DATA_1_VMA + DATA_1_SIZE];
+define region data_2_region = mem:[from DATA_2_VMA to DATA_2_VMA + DATA_2_SIZE];
+define region shared_mem0_region = mem:[from SHARED_MEM0_LMA to SHARED_MEM0_LMA + SHARED_MEM0_SIZE]; /* shared_ram0 */
+define region shared_mem1_region = mem:[from SHARED_MEM1_LMA to SHARED_MEM1_LMA + SHARED_MEM1_SIZE]; /* shared_ram1 */
+define region gpu_region = mem:[from GPU_BUF_LMA to GPU_BUF_LMA + GPU_BUF_SIZE];
+
+/*-Initializations-*/
+initialize by copy { readwrite };
+do not initialize  { section .noinit, section .intvec_ram };
+initialize by copy { section .cy_sram1_code };
+
+place at start of code_1_region  { section .intvec };
+place in          code_1_region  { readonly };
+
+place in          code_2_region  { section .cy_itcm, section .ram_vectors };
+place in          code_3_region  { section .cy_socmem_code };
+
+place in          code_4_region  { section .cy_sram1_code, section .cy_ramfunc };
+
+
+define block CSTACK     with alignment = 8, size = __ICFEDIT_size_cstack__ { };
+define block HEAP       with expanding size, alignment = 8, minimum size = __size_heap__ { section .noinit};
+define block RAM_DATA { readwrite section .data };
+define block RAM_OTHER { readwrite section * };
+define block RAM_NOINIT { readwrite section .noinit };
+define block RAM_BSS { readwrite section .bss };
+define block RAMVECTOR        with alignment = RAMVECTORS_ALIGNMENT { section .intvec_ram };
+define block RAM with fixed order { block RAM_DATA, block RAM_OTHER, block RAM_NOINIT, block RAM_BSS };
+
+place in          data_1_region  {  block RAM,
+                                    block RAMVECTOR,
+                                     };
+place at end   of data_1_region  { block CSTACK };
+
+place in          data_2_region { section .cy_socmem_data };
+place at end   of data_2_region  { block HEAP };
+
+place in          shared_mem0_region { section .cy_sharedmem };
+place in          shared_mem1_region { section .cy_shared_socmem };
+place in          gpu_region { section .cy_gpu_buf };
+
+keep {  section .intvec  };

@@ -1,0 +1,34 @@
+[
+    {
+        "asset-name": "bt-fw-ifx-cyw55500a1",
+        "locked-commit": "release-v1.2.0"
+    },
+    {
+        "asset-name": "cmsis",
+        "locked-commit": "release-v5.8.200"
+    },
+    {
+        "asset-name": "core-lib",
+        "locked-commit": "release-v1.4.3"
+    },
+    {
+        "asset-name": "core-make",
+        "locked-commit": "release-v3.4.1"
+    },
+    {
+        "asset-name": "device-db",
+        "locked-commit": "release-v4.5.10"
+    },
+    {
+        "asset-name": "mtb-hal-cat1",
+        "locked-commit": "release-v2.5.6"
+    },
+    {
+        "asset-name": "mtb-pdl-cat1",
+        "locked-commit": "release-v3.11.102"
+    },
+    {
+        "asset-name": "recipe-make-cat1d",
+        "locked-commit": "release-v1.0.3"
+    }
+]

@@ -1,0 +1,828 @@
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (5 ms)
+Loading the application in directory '/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell'
+using cached data from file '/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbqueryapi'
+using cached data from file '/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_ns/.mtbqueryapi'
+using cached data from file '/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_s/.mtbqueryapi'
+using cached data from file '/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/.mtbqueryapi'
+creating application information from 'get_app_info' data
+finished creating application information from 'get_app_info' data (14 ms)
+Finished loading the application data (91 ms total, 0 make)
+Loading asset repository references
+Finished loading the asset repository references (75 ms)
+Loading the manifest data
+Online Content mode has been enabled by default.
+Loading super manfiest files from all sources
+Processing manifest loc file '/Users/sriborrirux/.modustoolbox/manifest.loc'
+Found user super-manifest(s):
+  'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-super-manifest.xml'
+Downloading super manifest file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-super-manifest.xml'
+Processing manifest pack file '/Users/sriborrirux/Applications/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Downloading super manifest file 'file:///Users/sriborrirux/Applications/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Processing manifest pack file '/Applications/ModusToolbox/packs/PSOC-E84-EA/manifest.xml'
+Downloading super manifest file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifest.xml'
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-super-manifest.xml'
+Starting to parse super manifest with URL 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-super-manifest.xml'
+Finished parsing super manifest with URL 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-super-manifest.xml'
+Downloading manifest file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-basic-app-manifest.xml'
+Downloading manifest file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-ff-app-manifest.xml'
+Downloading manifest file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-app-manifest.xml'
+Finished download of file 'file:///Users/sriborrirux/Applications/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Starting to parse super manifest with URL 'file:///Users/sriborrirux/Applications/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Finished parsing super manifest with URL 'file:///Users/sriborrirux/Applications/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Downloading manifest file 'file:///Users/sriborrirux/Applications/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifests/mtb-ml-ce-manifest.xml'
+Finished download of file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifest.xml'
+Starting to parse super manifest with URL 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifest.xml'
+Finished parsing super manifest with URL 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifest.xml'
+Downloading manifest file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/app-manifest.xml'
+Downloading manifest file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/bsp-manifest.xml'
+Downloading manifest file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/bsp-dependencies-manifest.xml'
+Downloading manifest file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/mw-manifest.xml'
+Downloading manifest file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/mw-dependencies-manifest.xml'
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Altia-Marketing/altia-ce-manifest/raw/main/altia-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-ce-manifest/raw/main/avnet-iotc-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/mtb-ce-manifest-fv2-rtlabs.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-mw-manifest/raw/main/avnet-iotc-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-basic-app-manifest.xml'
+Finished download of file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-ff-app-manifest.xml'
+Finished download of file 'https://raw.githubusercontent.com/Advance-Innovation-Centre-AIC/mtb2-bdh-academy-manifests/master/bdh-academy-app-manifest.xml'
+Finished download of file 'file:///Users/sriborrirux/Applications/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifests/mtb-ml-ce-manifest.xml'
+Finished download of file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/app-manifest.xml'
+Finished download of file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/bsp-manifest.xml'
+Finished download of file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/bsp-dependencies-manifest.xml'
+Finished download of file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/mw-manifest.xml'
+Finished download of file 'file:///Applications/ModusToolbox/packs/PSOC-E84-EA/manifests/mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Altia-Marketing/altia-ce-manifest/raw/main/altia-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-ce-manifest/raw/main/avnet-iotc-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/mtb-ce-manifest-fv2-rtlabs.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-mw-manifest/raw/main/avnet-iotc-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2952 ms)
+Starting to refresh dependencies for project 'proj_cm33_ns'.
+Refreshed all dependencies for project 'proj_cm33_ns'.
+Starting to refresh dependencies for project 'proj_cm33_s'.
+Refreshed all dependencies for project 'proj_cm33_s'.
+Starting to refresh dependencies for project 'proj_cm55'.
+Refreshed all dependencies for project 'proj_cm55'.
+0 error(s), 0 warning(s)
+Successfully acquired the information.
+Requested to remove the asset 'CY8CKIT-032'.
+Starting to refresh dependencies for project 'proj_cm33_ns'.
+Refreshed all dependencies for project 'proj_cm33_ns'.
+Starting to refresh dependencies for project 'proj_cm33_s'.
+Refreshed all dependencies for project 'proj_cm33_s'.
+Starting to refresh dependencies for project 'proj_cm55'.
+Refreshed all dependencies for project 'proj_cm55'.
+
+Starting to refresh dependencies for project 'proj_cm33_ns'.
+Refreshed all dependencies for project 'proj_cm33_ns'.
+Starting to refresh dependencies for project 'proj_cm33_s'.
+Refreshed all dependencies for project 'proj_cm33_s'.
+Starting to refresh dependencies for project 'proj_cm55'.
+Refreshed all dependencies for project 'proj_cm55'.
+
+Changelog for project "proj_cm55":
+CY8CKIT-032 version release-v1.1.0 removed
+display-oled-ssd1306 version release-v1.0.3 removed
+
+Click "Update" to commit the changesUpdating project "proj_cm33_ns" ...
+Starting to commit changes to the filesystem and project 'proj_cm33_ns'.
+Git#0>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/freertos/release-v10.6.290 -c advice.detachedHead=false checkout --progress release-v10.6.290
+Git#1>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/abstraction-rtos/release-v1.9.0 -c advice.detachedHead=false checkout --progress release-v1.9.0
+Git#2>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/bt-fw-ifx-cyw55500a1/release-v1.2.0 -c advice.detachedHead=false checkout --progress release-v1.2.0
+Git#3>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/clib-support/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
+Git#3>HEAD is now at 72a71a7 Upload clib-support [3062]
+Git#2>HEAD is now at 2285214 release-v1.2.0
+Git#1>HEAD is now at b798771 Upload abstraction-rtos [3062]
+Git#3>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/clib-support/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
+Finished processing clib-support
+Git#4>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/cmsis/release-v5.8.200 -c advice.detachedHead=false checkout --progress release-v5.8.200
+Git#2>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/bt-fw-ifx-cyw55500a1/release-v1.2.0 -c advice.detachedHead=false checkout --progress release-v1.2.0
+Finished processing bt-fw-ifx-cyw55500a1
+Git#5>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Git#0>HEAD is now at acfef48 release-v10.6.290
+Git#1>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/abstraction-rtos/release-v1.9.0 -c advice.detachedHead=false checkout --progress release-v1.9.0
+Finished processing abstraction-rtos
+Git#6>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout --progress release-v3.4.1
+Git#0>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/freertos/release-v10.6.290 -c advice.detachedHead=false checkout --progress release-v10.6.290
+Finished processing freertos
+Git#7>Starting: git -C /Users/sriborrirux/.modustoolbox/global/device-db/release-v4.5.10 -c advice.detachedHead=false checkout --progress release-v4.5.10
+Git#4>HEAD is now at 5f6d4b4 release-v5.8.200
+Git#4>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/cmsis/release-v5.8.200 -c advice.detachedHead=false checkout --progress release-v5.8.200
+Finished processing cmsis
+Git#8>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-hal-cat1/release-v2.5.6 -c advice.detachedHead=false checkout --progress release-v2.5.6
+Git#5>HEAD is now at 0d6c3d4 release-v1.4.3
+Git#5>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Finished processing core-lib
+Git#9>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-pdl-cat1/release-v3.11.102 -c advice.detachedHead=false checkout --progress release-v3.11.102
+Git#6>HEAD is now at 79de3ac Upload core-make 3.4.1.6167 [2900]
+Git#6>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout --progress release-v3.4.1
+Finished processing core-make
+Git#10>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/recipe-make-cat1d/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Git#7>HEAD is now at cfe12b4 release-v4.5.10
+Git#7>Success: git -C /Users/sriborrirux/.modustoolbox/global/device-db/release-v4.5.10 -c advice.detachedHead=false checkout --progress release-v4.5.10
+Finished processing device-db
+Git#8>HEAD is now at b5455d7 release-v2.5.6
+Git#8>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-hal-cat1/release-v2.5.6 -c advice.detachedHead=false checkout --progress release-v2.5.6
+Finished processing mtb-hal-cat1
+Git#9>HEAD is now at 983ee02 release-v3.11.102
+Git#9>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-pdl-cat1/release-v3.11.102 -c advice.detachedHead=false checkout --progress release-v3.11.102
+Finished processing mtb-pdl-cat1
+Git#10>HEAD is now at 21d78da release-v1.0.3
+Git#10>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/recipe-make-cat1d/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Finished processing recipe-make-cat1d
+Successfully committed changes to the project 'proj_cm33_ns'.
+0 error(s), 0 warning(s)
+Successfully updated project "proj_cm33_ns"
+Updating project "proj_cm33_s" ...
+Starting to commit changes to the filesystem and project 'proj_cm33_s'.
+Git#11>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/retarget-io/release-v1.7.0 -c advice.detachedHead=false checkout --progress release-v1.7.0
+Git#12>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/se-rt-services-utils/release-v1.0.0 -c advice.detachedHead=false checkout --progress release-v1.0.0
+Git#13>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/bt-fw-ifx-cyw55500a1/release-v1.2.0 -c advice.detachedHead=false checkout --progress release-v1.2.0
+Git#14>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/cmsis/release-v5.8.200 -c advice.detachedHead=false checkout --progress release-v5.8.200
+Git#11>HEAD is now at 9dd4eeb Upload retarget-io [3062]
+Git#11>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/retarget-io/release-v1.7.0 -c advice.detachedHead=false checkout --progress release-v1.7.0
+Finished processing retarget-io
+Git#15>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Git#12>HEAD is now at 0f57ae2 release-v1.0.0
+Git#12>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/se-rt-services-utils/release-v1.0.0 -c advice.detachedHead=false checkout --progress release-v1.0.0
+Finished processing se-rt-services-utils
+Git#16>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout --progress release-v3.4.1
+Git#13>HEAD is now at 2285214 release-v1.2.0
+Git#13>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/bt-fw-ifx-cyw55500a1/release-v1.2.0 -c advice.detachedHead=false checkout --progress release-v1.2.0
+Finished processing bt-fw-ifx-cyw55500a1
+Git#17>Starting: git -C /Users/sriborrirux/.modustoolbox/global/device-db/release-v4.5.10 -c advice.detachedHead=false checkout --progress release-v4.5.10
+Git#14>HEAD is now at 5f6d4b4 release-v5.8.200
+Git#14>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/cmsis/release-v5.8.200 -c advice.detachedHead=false checkout --progress release-v5.8.200
+Finished processing cmsis
+Git#18>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-hal-cat1/release-v2.5.6 -c advice.detachedHead=false checkout --progress release-v2.5.6
+Git#15>HEAD is now at 0d6c3d4 release-v1.4.3
+Git#15>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Finished processing core-lib
+Git#19>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-pdl-cat1/release-v3.11.102 -c advice.detachedHead=false checkout --progress release-v3.11.102
+Git#16>HEAD is now at 79de3ac Upload core-make 3.4.1.6167 [2900]
+Git#16>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout --progress release-v3.4.1
+Finished processing core-make
+Git#20>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/recipe-make-cat1d/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Git#18>HEAD is now at b5455d7 release-v2.5.6
+Git#18>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-hal-cat1/release-v2.5.6 -c advice.detachedHead=false checkout --progress release-v2.5.6
+Finished processing mtb-hal-cat1
+Git#17>HEAD is now at cfe12b4 release-v4.5.10
+Git#17>Success: git -C /Users/sriborrirux/.modustoolbox/global/device-db/release-v4.5.10 -c advice.detachedHead=false checkout --progress release-v4.5.10
+Finished processing device-db
+Git#19>HEAD is now at 983ee02 release-v3.11.102
+Git#19>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-pdl-cat1/release-v3.11.102 -c advice.detachedHead=false checkout --progress release-v3.11.102
+Finished processing mtb-pdl-cat1
+Git#20>HEAD is now at 21d78da release-v1.0.3
+Git#20>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/recipe-make-cat1d/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Finished processing recipe-make-cat1d
+Successfully committed changes to the project 'proj_cm33_s'.
+0 error(s), 0 warning(s)
+Successfully updated project "proj_cm33_s"
+Updating project "proj_cm55" ...
+Starting to commit changes to the filesystem and project 'proj_cm55'.
+Removed the file '/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/deps/CY8CKIT-032.mtb'.
+Removed the file '/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/libs/display-oled-ssd1306.mtb'.
+Git#21>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/capsense clone --progress --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/capsense release-v3.0.0
+Git#22>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/freertos/release-v10.6.290 -c advice.detachedHead=false checkout --progress release-v10.6.290
+Git#23>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/middleware-ntshell/latest-v2.X fetch --recurse-submodules=no --tags --force cypress --update-head-ok "refs/heads/*:refs/heads/*" --progress
+Git#24>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/retarget-io/release-v1.7.0 -c advice.detachedHead=false checkout --progress release-v1.7.0
+Git#21>Cloning into 'release-v3.0.0'...
+Git#22>HEAD is now at acfef48 release-v10.6.290
+Git#22>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/freertos/release-v10.6.290 -c advice.detachedHead=false checkout --progress release-v10.6.290
+Finished processing freertos
+Git#25>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/abstraction-rtos/release-v1.9.0 -c advice.detachedHead=false checkout --progress release-v1.9.0
+Git#24>HEAD is now at 9dd4eeb Upload retarget-io [3062]
+Git#24>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/retarget-io/release-v1.7.0 -c advice.detachedHead=false checkout --progress release-v1.7.0
+Finished processing retarget-io
+Git#26>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/bt-fw-ifx-cyw55500a1/release-v1.2.0 -c advice.detachedHead=false checkout --progress release-v1.2.0
+Git#25>HEAD is now at b798771 Upload abstraction-rtos [3062]
+Git#25>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/abstraction-rtos/release-v1.9.0 -c advice.detachedHead=false checkout --progress release-v1.9.0
+Finished processing abstraction-rtos
+Git#27>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/clib-support/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
+Git#26>HEAD is now at 2285214 release-v1.2.0
+Git#26>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/bt-fw-ifx-cyw55500a1/release-v1.2.0 -c advice.detachedHead=false checkout --progress release-v1.2.0
+Finished processing bt-fw-ifx-cyw55500a1
+Git#28>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/cmsis/release-v5.8.200 -c advice.detachedHead=false checkout --progress release-v5.8.200
+Git#27>HEAD is now at 72a71a7 Upload clib-support [3062]
+Git#27>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/clib-support/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
+Finished processing clib-support
+Git#29>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Git#28>HEAD is now at 5f6d4b4 release-v5.8.200
+Git#28>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/cmsis/release-v5.8.200 -c advice.detachedHead=false checkout --progress release-v5.8.200
+Finished processing cmsis
+Git#30>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout --progress release-v3.4.1
+Git#29>HEAD is now at 0d6c3d4 release-v1.4.3
+Git#29>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-lib/release-v1.4.3 -c advice.detachedHead=false checkout --progress release-v1.4.3
+Finished processing core-lib
+Git#31>Starting: git -C /Users/sriborrirux/.modustoolbox/global/device-db/release-v4.5.10 -c advice.detachedHead=false checkout --progress release-v4.5.10
+Git#30>HEAD is now at 79de3ac Upload core-make 3.4.1.6167 [2900]
+Git#30>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout --progress release-v3.4.1
+Finished processing core-make
+Git#32>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-hal-cat1/release-v2.5.6 -c advice.detachedHead=false checkout --progress release-v2.5.6
+Git#31>HEAD is now at cfe12b4 release-v4.5.10
+Git#32>HEAD is now at b5455d7 release-v2.5.6
+Git#31>Success: git -C /Users/sriborrirux/.modustoolbox/global/device-db/release-v4.5.10 -c advice.detachedHead=false checkout --progress release-v4.5.10
+Finished processing device-db
+Git#33>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-pdl-cat1/release-v3.11.102 -c advice.detachedHead=false checkout --progress release-v3.11.102
+Git#32>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-hal-cat1/release-v2.5.6 -c advice.detachedHead=false checkout --progress release-v2.5.6
+Finished processing mtb-hal-cat1
+Git#34>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/recipe-make-cat1d/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Git#33>HEAD is now at 983ee02 release-v3.11.102
+Git#33>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/mtb-pdl-cat1/release-v3.11.102 -c advice.detachedHead=false checkout --progress release-v3.11.102
+Finished processing mtb-pdl-cat1
+Git#34>HEAD is now at 21d78da release-v1.0.3
+Git#34>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/recipe-make-cat1d/release-v1.0.3 -c advice.detachedHead=false checkout --progress release-v1.0.3
+Finished processing recipe-make-cat1d
+Git#23>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/middleware-ntshell/latest-v2.X fetch --recurse-submodules=no --tags --force cypress --update-head-ok "refs/heads/*:refs/heads/*" --progress
+Git#35>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/middleware-ntshell/latest-v2.X -c advice.detachedHead=false checkout --progress latest-v2.X
+Git#35>HEAD is now at b5468a9 fixed usrcmd template
+Git#35>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/middleware-ntshell/latest-v2.X -c advice.detachedHead=false checkout --progress latest-v2.X
+Finished processing middleware-ntshell
+Git#21>remote: Enumerating objects: 151, done.        
+Git#21>remote: Counting objects:   0% (1/102)        
+Git#21>remote: Counting objects:   1% (2/102)        
+Git#21>remote: Counting objects:   2% (3/102)        
+Git#21>remote: Counting objects:   3% (4/102)        
+Git#21>remote: Counting objects:   4% (5/102)        
+Git#21>remote: Counting objects:   5% (6/102)        
+Git#21>remote: Counting objects:   6% (7/102)        
+Git#21>remote: Counting objects:   7% (8/102)        
+Git#21>remote: Counting objects:   8% (9/102)        
+Git#21>remote: Counting objects:   9% (10/102)        
+Git#21>remote: Counting objects:  10% (11/102)        
+Git#21>remote: Counting objects:  11% (12/102)        
+Git#21>remote: Counting objects:  12% (13/102)        
+Git#21>remote: Counting objects:  13% (14/102)        
+Git#21>remote: Counting objects:  14% (15/102)        
+Git#21>remote: Counting objects:  15% (16/102)        
+Git#21>remote: Counting objects:  16% (17/102)        
+Git#21>remote: Counting objects:  17% (18/102)        
+Git#21>remote: Counting objects:  18% (19/102)        
+Git#21>remote: Counting objects:  19% (20/102)        
+Git#21>remote: Counting objects:  20% (21/102)        
+Git#21>remote: Counting objects:  21% (22/102)        
+Git#21>remote: Counting objects:  22% (23/102)        
+Git#21>remote: Counting objects:  23% (24/102)        
+Git#21>remote: Counting objects:  24% (25/102)        
+Git#21>remote: Counting objects:  25% (26/102)        
+Git#21>remote: Counting objects:  26% (27/102)        
+Git#21>remote: Counting objects:  27% (28/102)        
+Git#21>remote: Counting objects:  28% (29/102)        
+Git#21>remote: Counting objects:  29% (30/102)        
+Git#21>remote: Counting objects:  30% (31/102)        
+Git#21>remote: Counting objects:  31% (32/102)        
+Git#21>remote: Counting objects:  32% (33/102)        
+Git#21>remote: Counting objects:  33% (34/102)        
+Git#21>remote: Counting objects:  34% (35/102)        
+Git#21>remote: Counting objects:  35% (36/102)        
+Git#21>remote: Counting objects:  36% (37/102)        
+Git#21>remote: Counting objects:  37% (38/102)        
+Git#21>remote: Counting objects:  38% (39/102)        
+Git#21>remote: Counting objects:  39% (40/102)        
+Git#21>remote: Counting objects:  40% (41/102)        
+Git#21>remote: Counting objects:  41% (42/102)        
+Git#21>remote: Counting objects:  42% (43/102)        
+Git#21>remote: Counting objects:  43% (44/102)        
+Git#21>remote: Counting objects:  44% (45/102)        
+Git#21>remote: Counting objects:  45% (46/102)        
+Git#21>remote: Counting objects:  46% (47/102)        
+Git#21>remote: Counting objects:  47% (48/102)        
+Git#21>remote: Counting objects:  48% (49/102)        
+Git#21>remote: Counting objects:  49% (50/102)        
+Git#21>remote: Counting objects:  50% (51/102)        
+Git#21>remote: Counting objects:  51% (53/102)        
+Git#21>remote: Counting objects:  52% (54/102)        
+Git#21>remote: Counting objects:  53% (55/102)        
+Git#21>remote: Counting objects:  54% (56/102)        
+Git#21>remote: Counting objects:  55% (57/102)        
+Git#21>remote: Counting objects:  56% (58/102)        
+Git#21>remote: Counting objects:  57% (59/102)        
+Git#21>remote: Counting objects:  58% (60/102)        
+Git#21>remote: Counting objects:  59% (61/102)        
+Git#21>remote: Counting objects:  60% (62/102)        
+Git#21>remote: Counting objects:  61% (63/102)        
+Git#21>remote: Counting objects:  62% (64/102)        
+Git#21>remote: Counting objects:  63% (65/102)        
+Git#21>remote: Counting objects:  64% (66/102)        
+Git#21>remote: Counting objects:  65% (67/102)        
+Git#21>remote: Counting objects:  66% (68/102)        
+Git#21>remote: Counting objects:  67% (69/102)        
+Git#21>remote: Counting objects:  68% (70/102)        
+Git#21>remote: Counting objects:  69% (71/102)        
+Git#21>remote: Counting objects:  70% (72/102)        
+Git#21>remote: Counting objects:  71% (73/102)        
+Git#21>remote: Counting objects:  72% (74/102)        
+Git#21>remote: Counting objects:  73% (75/102)        
+Git#21>remote: Counting objects:  74% (76/102)        
+Git#21>remote: Counting objects:  75% (77/102)        
+Git#21>remote: Counting objects:  76% (78/102)        
+Git#21>remote: Counting objects:  77% (79/102)        
+Git#21>remote: Counting objects:  78% (80/102)        
+Git#21>remote: Counting objects:  79% (81/102)        
+Git#21>remote: Counting objects:  80% (82/102)        
+Git#21>remote: Counting objects:  81% (83/102)        
+Git#21>remote: Counting objects:  82% (84/102)        
+Git#21>remote: Counting objects:  83% (85/102)        
+Git#21>remote: Counting objects:  84% (86/102)        
+Git#21>remote: Counting objects:  85% (87/102)        
+Git#21>remote: Counting objects:  86% (88/102)        
+Git#21>remote: Counting objects:  87% (89/102)        
+Git#21>remote: Counting objects:  88% (90/102)        
+Git#21>remote: Counting objects:  89% (91/102)        
+Git#21>remote: Counting objects:  90% (92/102)        
+Git#21>remote: Counting objects:  91% (93/102)        
+Git#21>remote: Counting objects:  92% (94/102)        
+Git#21>remote: Counting objects:  93% (95/102)        
+Git#21>remote: Counting objects:  94% (96/102)        
+Git#21>remote: Counting objects:  95% (97/102)        
+Git#21>remote: Counting objects:  96% (98/102)        
+Git#21>remote: Counting objects:  97% (99/102)        
+Git#21>remote: Counting objects:  98% (100/102)        
+Git#21>remote: Counting objects:  99% (101/102)        
+Git#21>remote: Counting objects: 100% (102/102)        
+Git#21>remote: Counting objects: 100% (102/102), done.        
+Git#21>remote: Compressing objects:   2% (1/40)        
+Git#21>remote: Compressing objects:   5% (2/40)        
+Git#21>remote: Compressing objects:   7% (3/40)        
+Git#21>remote: Compressing objects:  10% (4/40)        
+Git#21>remote: Compressing objects:  12% (5/40)        
+Git#21>remote: Compressing objects:  15% (6/40)        
+Git#21>remote: Compressing objects:  17% (7/40)        
+Git#21>remote: Compressing objects:  20% (8/40)        
+Git#21>remote: Compressing objects:  22% (9/40)        
+Git#21>remote: Compressing objects:  25% (10/40)        
+Git#21>remote: Compressing objects:  27% (11/40)        
+Git#21>remote: Compressing objects:  30% (12/40)        
+Git#21>remote: Compressing objects:  32% (13/40)        
+Git#21>remote: Compressing objects:  35% (14/40)        
+Git#21>remote: Compressing objects:  37% (15/40)        
+Git#21>remote: Compressing objects:  40% (16/40)        
+Git#21>remote: Compressing objects:  42% (17/40)        
+Git#21>remote: Compressing objects:  45% (18/40)        
+Git#21>remote: Compressing objects:  47% (19/40)        
+Git#21>remote: Compressing objects:  50% (20/40)        
+Git#21>remote: Compressing objects:  52% (21/40)        
+Git#21>remote: Compressing objects:  55% (22/40)        
+Git#21>remote: Compressing objects:  57% (23/40)        
+Git#21>remote: Compressing objects:  60% (24/40)        
+Git#21>remote: Compressing objects:  62% (25/40)        
+Git#21>remote: Compressing objects:  65% (26/40)        
+Git#21>remote: Compressing objects:  67% (27/40)        
+Git#21>remote: Compressing objects:  70% (28/40)        
+Git#21>remote: Compressing objects:  72% (29/40)        
+Git#21>remote: Compressing objects:  75% (30/40)        
+Git#21>remote: Compressing objects:  77% (31/40)        
+Git#21>remote: Compressing objects:  80% (32/40)        
+Git#21>remote: Compressing objects:  82% (33/40)        
+Git#21>remote: Compressing objects:  85% (34/40)        
+Git#21>remote: Compressing objects:  87% (35/40)        
+Git#21>remote: Compressing objects:  90% (36/40)        
+Git#21>remote: Compressing objects:  92% (37/40)        
+Git#21>remote: Compressing objects:  95% (38/40)        
+Git#21>remote: Compressing objects:  97% (39/40)        
+Git#21>remote: Compressing objects: 100% (40/40)        
+Git#21>remote: Compressing objects: 100% (40/40), done.        
+Git#21>Receiving objects:   0% (1/151)
+Git#21>Receiving objects:   1% (2/151)
+Git#21>Receiving objects:   2% (4/151)
+Git#21>Receiving objects:   3% (5/151)
+Git#21>Receiving objects:   4% (7/151)
+Git#21>Receiving objects:   5% (8/151)
+Git#21>Receiving objects:   6% (10/151)
+Git#21>Receiving objects:   7% (11/151)
+Git#21>Receiving objects:   8% (13/151)
+Git#21>Receiving objects:   9% (14/151)
+Git#21>Receiving objects:  10% (16/151)
+Git#21>Receiving objects:  11% (17/151)
+Git#21>Receiving objects:  12% (19/151)
+Git#21>Receiving objects:  13% (20/151)
+Git#21>Receiving objects:  14% (22/151)
+Git#21>Receiving objects:  15% (23/151)
+Git#21>Receiving objects:  16% (25/151)
+Git#21>Receiving objects:  17% (26/151)
+Git#21>Receiving objects:  18% (28/151)
+Git#21>Receiving objects:  19% (29/151)
+Git#21>Receiving objects:  20% (31/151)
+Git#21>Receiving objects:  21% (32/151)
+Git#21>Receiving objects:  22% (34/151)
+Git#21>Receiving objects:  23% (35/151)
+Git#21>Receiving objects:  24% (37/151)
+Git#21>Receiving objects:  25% (38/151)
+Git#21>Receiving objects:  26% (40/151)
+Git#21>Receiving objects:  27% (41/151)
+Git#21>Receiving objects:  28% (43/151)
+Git#21>Receiving objects:  29% (44/151)
+Git#21>Receiving objects:  30% (46/151)
+Git#21>Receiving objects:  31% (47/151)
+Git#21>Receiving objects:  32% (49/151)
+Git#21>Receiving objects:  33% (50/151)
+Git#21>Receiving objects:  34% (52/151)
+Git#21>Receiving objects:  35% (53/151)
+Git#21>Receiving objects:  36% (55/151)
+Git#21>Receiving objects:  37% (56/151)
+Git#21>Receiving objects:  38% (58/151)
+Git#21>Receiving objects:  39% (59/151)
+Git#21>Receiving objects:  40% (61/151)
+Git#21>Receiving objects:  41% (62/151)
+Git#21>Receiving objects:  42% (64/151)
+Git#21>Receiving objects:  43% (65/151)
+Git#21>Receiving objects:  44% (67/151)
+Git#21>Receiving objects:  45% (68/151)
+Git#21>Receiving objects:  46% (70/151)
+Git#21>Receiving objects:  47% (71/151)
+Git#21>Receiving objects:  48% (73/151)
+Git#21>Receiving objects:  49% (74/151)
+Git#21>Receiving objects:  50% (76/151)
+Git#21>Receiving objects:  51% (78/151)
+Git#21>Receiving objects:  52% (79/151)
+Git#21>Receiving objects:  53% (81/151)
+Git#21>Receiving objects:  54% (82/151)
+Git#21>Receiving objects:  55% (84/151)
+Git#21>Receiving objects:  56% (85/151)
+Git#21>Receiving objects:  57% (87/151)
+Git#21>Receiving objects:  58% (88/151)
+Git#21>Receiving objects:  59% (90/151)
+Git#21>Receiving objects:  60% (91/151)
+Git#21>Receiving objects:  61% (93/151)
+Git#21>Receiving objects:  62% (94/151)
+Git#21>Receiving objects:  63% (96/151)
+Git#21>Receiving objects:  64% (97/151)
+Git#21>Receiving objects:  65% (99/151)
+Git#21>Receiving objects:  66% (100/151)
+Git#21>Receiving objects:  67% (102/151)
+Git#21>Receiving objects:  68% (103/151)
+Git#21>Receiving objects:  69% (105/151)
+Git#21>Receiving objects:  70% (106/151)
+Git#21>Receiving objects:  71% (108/151)
+Git#21>Receiving objects:  72% (109/151)
+Git#21>Receiving objects:  73% (111/151)
+Git#21>Receiving objects:  74% (112/151)
+Git#21>Receiving objects:  75% (114/151)
+Git#21>Receiving objects:  76% (115/151)
+Git#21>Receiving objects:  77% (117/151)
+Git#21>Receiving objects:  78% (118/151)
+Git#21>Receiving objects:  79% (120/151)
+Git#21>Receiving objects:  80% (121/151)
+Git#21>Receiving objects:  81% (123/151)
+Git#21>Receiving objects:  82% (124/151)
+Git#21>Receiving objects:  83% (126/151)
+Git#21>Receiving objects:  84% (127/151)
+Git#21>Receiving objects:  85% (129/151)
+Git#21>Receiving objects:  86% (130/151)
+Git#21>Receiving objects:  87% (132/151)
+Git#21>Receiving objects:  88% (133/151)
+Git#21>Receiving objects:  89% (135/151)
+Git#21>Receiving objects:  90% (136/151)
+Git#21>Receiving objects:  91% (138/151)
+Git#21>Receiving objects:  92% (139/151)
+Git#21>Receiving objects:  93% (141/151)
+Git#21>Receiving objects:  94% (142/151)
+Git#21>remote: Total 151 (delta 28), reused 88 (delta 19), pack-reused 49 (from 1)        
+Git#21>Receiving objects:  95% (144/151)
+Git#21>Receiving objects:  96% (145/151)
+Git#21>Receiving objects:  97% (147/151)
+Git#21>Receiving objects:  98% (148/151)
+Git#21>Receiving objects:  99% (150/151)
+Git#21>Receiving objects: 100% (151/151)
+Git#21>Receiving objects: 100% (151/151), 73.24 KiB | 1.49 MiB/s, done.
+Git#21>Resolving deltas:   0% (0/37)
+Git#21>Resolving deltas:   2% (1/37)
+Git#21>Resolving deltas:   5% (2/37)
+Git#21>Resolving deltas:   8% (3/37)
+Git#21>Resolving deltas:  13% (5/37)
+Git#21>Resolving deltas:  16% (6/37)
+Git#21>Resolving deltas:  18% (7/37)
+Git#21>Resolving deltas:  21% (8/37)
+Git#21>Resolving deltas:  24% (9/37)
+Git#21>Resolving deltas:  27% (10/37)
+Git#21>Resolving deltas:  29% (11/37)
+Git#21>Resolving deltas:  35% (13/37)
+Git#21>Resolving deltas:  37% (14/37)
+Git#21>Resolving deltas:  40% (15/37)
+Git#21>Resolving deltas:  43% (16/37)
+Git#21>Resolving deltas:  45% (17/37)
+Git#21>Resolving deltas:  48% (18/37)
+Git#21>Resolving deltas:  51% (19/37)
+Git#21>Resolving deltas:  54% (20/37)
+Git#21>Resolving deltas:  56% (21/37)
+Git#21>Resolving deltas:  59% (22/37)
+Git#21>Resolving deltas:  62% (23/37)
+Git#21>Resolving deltas:  64% (24/37)
+Git#21>Resolving deltas:  67% (25/37)
+Git#21>Resolving deltas:  70% (26/37)
+Git#21>Resolving deltas:  72% (27/37)
+Git#21>Resolving deltas:  75% (28/37)
+Git#21>Resolving deltas:  78% (29/37)
+Git#21>Resolving deltas:  81% (30/37)
+Git#21>Resolving deltas:  83% (31/37)
+Git#21>Resolving deltas:  86% (32/37)
+Git#21>Resolving deltas:  89% (33/37)
+Git#21>Resolving deltas:  91% (34/37)
+Git#21>Resolving deltas:  94% (35/37)
+Git#21>Resolving deltas:  97% (36/37)
+Git#21>Resolving deltas: 100% (37/37)
+Git#21>Resolving deltas: 100% (37/37), done.
+Git#21>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/capsense clone --progress --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/capsense release-v3.0.0
+Git#36>Starting: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/capsense/release-v3.0.0 -c advice.detachedHead=false checkout --progress release-v3.0.0
+Git#36>Updating files:   0% (2/353)
+Git#36>Updating files:   1% (4/353)
+Git#36>Updating files:   2% (8/353)
+Git#36>Updating files:   3% (11/353)
+Git#36>Updating files:   4% (15/353)
+Git#36>Updating files:   5% (18/353)
+Git#36>Updating files:   6% (22/353)
+Git#36>Updating files:   7% (25/353)
+Git#36>Updating files:   8% (29/353)
+Git#36>Updating files:   9% (32/353)
+Git#36>Updating files:  10% (36/353)
+Git#36>Updating files:  11% (39/353)
+Git#36>Updating files:  12% (43/353)
+Git#36>Updating files:  13% (46/353)
+Git#36>Updating files:  14% (50/353)
+Git#36>Updating files:  15% (53/353)
+Git#36>Updating files:  16% (57/353)
+Git#36>Updating files:  17% (61/353)
+Git#36>Updating files:  18% (64/353)
+Git#36>Updating files:  19% (68/353)
+Git#36>Updating files:  20% (71/353)
+Git#36>Updating files:  21% (75/353)
+Git#36>Updating files:  22% (78/353)
+Git#36>Updating files:  23% (82/353)
+Git#36>Updating files:  24% (85/353)
+Git#36>Updating files:  25% (89/353)
+Git#36>Updating files:  26% (92/353)
+Git#36>Updating files:  27% (96/353)
+Git#36>Updating files:  28% (99/353)
+Git#36>Updating files:  29% (103/353)
+Git#36>Updating files:  30% (106/353)
+Git#36>Updating files:  31% (110/353)
+Git#36>Updating files:  32% (113/353)
+Git#36>Updating files:  33% (117/353)
+Git#36>Updating files:  34% (121/353)
+Git#36>Updating files:  35% (124/353)
+Git#36>Updating files:  36% (128/353)
+Git#36>Updating files:  37% (131/353)
+Git#36>Updating files:  38% (135/353)
+Git#36>Updating files:  39% (138/353)
+Git#36>Updating files:  40% (142/353)
+Git#36>Updating files:  41% (145/353)
+Git#36>Updating files:  42% (149/353)
+Git#36>Updating files:  43% (152/353)
+Git#36>Updating files:  44% (156/353)
+Git#36>Updating files:  45% (159/353)
+Git#36>Updating files:  46% (163/353)
+Git#36>Updating files:  47% (166/353)
+Git#36>Updating files:  48% (170/353)
+Git#36>Updating files:  49% (173/353)
+Git#36>Updating files:  50% (177/353)
+Git#36>Updating files:  51% (181/353)
+Git#36>Updating files:  52% (184/353)
+Git#36>Updating files:  53% (188/353)
+Git#36>Updating files:  54% (191/353)
+Git#36>Updating files:  55% (195/353)
+Git#36>Updating files:  56% (198/353)
+Git#36>Updating files:  57% (202/353)
+Git#36>Updating files:  58% (205/353)
+Git#36>Updating files:  59% (209/353)
+Git#36>Updating files:  60% (212/353)
+Git#36>Updating files:  61% (216/353)
+Git#36>Updating files:  62% (219/353)
+Git#36>Updating files:  63% (223/353)
+Git#36>Updating files:  64% (226/353)
+Git#36>Updating files:  65% (230/353)
+Git#36>Updating files:  66% (233/353)
+Git#36>Updating files:  67% (237/353)
+Git#36>Updating files:  68% (241/353)
+Git#36>Updating files:  69% (244/353)
+Git#36>Updating files:  70% (248/353)
+Git#36>Updating files:  71% (251/353)
+Git#36>Updating files:  72% (255/353)
+Git#36>Updating files:  73% (258/353)
+Git#36>Updating files:  74% (262/353)
+Git#36>Updating files:  75% (265/353)
+Git#36>Updating files:  76% (269/353)
+Git#36>Updating files:  77% (272/353)
+Git#36>Updating files:  78% (276/353)
+Git#36>Updating files:  79% (279/353)
+Git#36>Updating files:  80% (283/353)
+Git#36>Updating files:  81% (286/353)
+Git#36>Updating files:  82% (290/353)
+Git#36>Updating files:  83% (293/353)
+Git#36>Updating files:  84% (297/353)
+Git#36>Updating files:  85% (301/353)
+Git#36>Updating files:  86% (304/353)
+Git#36>Updating files:  87% (308/353)
+Git#36>Updating files:  88% (311/353)
+Git#36>Updating files:  89% (315/353)
+Git#36>Updating files:  90% (318/353)
+Git#36>Updating files:  91% (322/353)
+Git#36>Updating files:  92% (325/353)
+Git#36>Updating files:  93% (329/353)
+Git#36>Updating files:  94% (332/353)
+Git#36>Updating files:  95% (336/353)
+Git#36>Updating files:  96% (339/353)
+Git#36>Updating files:  97% (343/353)
+Git#36>Updating files:  98% (346/353)
+Git#36>Updating files:  99% (350/353)
+Git#36>Updating files: 100% (353/353)
+Git#36>Updating files: 100% (353/353), done.
+Git#36>HEAD is now at 01dac81 Upload capsense 3.0.0.2705
+Git#36>Success: git -C /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/mtb_shared/capsense/release-v3.0.0 -c advice.detachedHead=false checkout --progress release-v3.0.0
+Finished processing capsense
+Successfully committed changes to the project 'proj_cm55'.
+0 error(s), 0 warning(s)
+Successfully updated project "proj_cm55"
+Total: 0 error(s), 0 warning(s)
+Successfully updated application "/Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell"
+Updating Launch Configurations ...
+Calling "make eclipse" ...
+WARNING:Failed to update PATH environment variable.
+
+Searching installed tools in progress...
+Searching installed tools complete
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C proj_cm33_s eclipse MTB_APPLICATION_SUBPROJECTS="proj_cm33_s proj_cm33_ns proj_cm55" MTB_APPLICATION_NAME="PSOC_Edge_BDH_Shell" && /Applications/Xcode.app/Contents/Developer/usr/bin/make -C proj_cm33_ns eclipse MTB_APPLICATION_SUBPROJECTS="proj_cm33_s proj_cm33_ns proj_cm55" MTB_APPLICATION_NAME="PSOC_Edge_BDH_Shell" && /Applications/Xcode.app/Contents/Developer/usr/bin/make -C proj_cm55 eclipse MTB_APPLICATION_SUBPROJECTS="proj_cm33_s proj_cm33_ns proj_cm55" MTB_APPLICATION_NAME="PSOC_Edge_BDH_Shell" && true
+Initializing build: proj_cm33_s Debug APP_KIT_PSOCE84_EVK GCC_ARM
+Prebuild operations complete
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+Constructing build rules...
+Build rules construction complete
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.cproject
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.project
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_s/.cproject
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_s/.project
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Erase All (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Erase Device (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Program Application (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_s/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_s Program (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Debug MultiCore (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_s/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_s Attach (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_s/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_s Debug (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_s/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_s Debug Multicore (KitProg3_MiniProg4).launch
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+For more information, refer to the Eclipse IDE for ModusToolbox user guide.
+Toolchain validation: PASS
+Initializing build: proj_cm33_ns Debug APP_KIT_PSOCE84_EVK GCC_ARM
+Prebuild operations complete
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+Constructing build rules...
+Build rules construction complete
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_ns/.cproject
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_ns/.project
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_ns/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_ns Program (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_ns/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_ns Attach (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_ns/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_ns Debug (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm33_ns/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm33_ns Debug Multicore (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Debug MultiCore (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Erase All (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Erase Device (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Program Application (KitProg3_MiniProg4).launch
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+For more information, refer to the Eclipse IDE for ModusToolbox user guide.
+Toolchain validation: PASS
+Initializing build: proj_cm55 Debug APP_KIT_PSOCE84_EVK GCC_ARM
+Prebuild operations complete
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+Constructing build rules...
+Build rules construction complete
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/.cproject
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/.project
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm55 Program (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm55 Attach (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm55 Debug (KitProg3_MiniProg4).launch
+Generated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/proj_cm55/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell.proj_cm55 Add CM55 to CM33 (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Debug MultiCore (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Erase All (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Erase Device (KitProg3_MiniProg4).launch
+Updated /Users/sriborrirux/Dropbox/BDH/BDH_Playground/PSoC_Edge/Official/PSoC_Edge_workspace/PSOC_Edge_BDH_Shell/.mtbLaunchConfigs/PSOC_Edge_BDH_Shell Program Application (KitProg3_MiniProg4).launch
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+For more information, refer to the Eclipse IDE for ModusToolbox user guide.
+Toolchain validation: PASS
+"make eclipse" succeeded
+
+Starting to refresh dependencies for project 'proj_cm33_ns'.
+Refreshed all dependencies for project 'proj_cm33_ns'.
+Starting to refresh dependencies for project 'proj_cm33_s'.
+Refreshed all dependencies for project 'proj_cm33_s'.
+Starting to refresh dependencies for project 'proj_cm55'.
+Refreshed all dependencies for project 'proj_cm55'.
+
+Summary:
+Successfully updated project "proj_cm33_ns"
+Successfully updated project "proj_cm33_s"
+Successfully updated project "proj_cm55"
+Successfully refreshed dependencies.
+Done.

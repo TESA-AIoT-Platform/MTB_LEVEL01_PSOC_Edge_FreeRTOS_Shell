@@ -1,0 +1,66 @@
+{
+    "core": {
+        "version": "0.8.0.43849"
+    },
+    "opt": {
+        "props": {
+            "capabilities": [
+                "adc",
+                "bsp_gen4",
+                "bt",
+                "can",
+                "cat1",
+                "cat1d",
+                "comp",
+                "cyw55513",
+                "cyw55xxx",
+                "dac",
+                "dma",
+                "ethernet",
+                "flash_0k",
+                "hal",
+                "i2c",
+                "i2s",
+                "i3c",
+                "kit_psoce84_evk",
+                "led",
+                "low_power",
+                "lptimer",
+                "mcu_gp",
+                "mcu_gp",
+                "memory_qspi",
+                "multi_core",
+                "opamp",
+                "pdm",
+                "qspi",
+                "rtc",
+                "sdhc",
+                "sdio",
+                "smart_io",
+                "spi",
+                "sram_1024k",
+                "std_crypto",
+                "tdm",
+                "uart",
+                "usb_device",
+                "usb_host",
+                "wifi"
+            ],
+            "dependencies": {
+                "bt-fw-ifx-cyw55500a1": "release-v1.2.0",
+                "core-lib": "release-v1.4.3",
+                "core-make": "latest-v3.X",
+                "mtb-hal-cat1": "release-v2.5.6",
+                "mtb-pdl-cat1": "release-v3.11.102",
+                "recipe-make-cat1d": "release-v1.0.3"
+            },
+            "docs_dir": "docs",
+            "flow_version": "2.0",
+            "min_tools": "3.3.0",
+            "template": {
+                "id": "mtb-template-cat1",
+                "version": "release-v1.2.5"
+            }
+        }
+    }
+}

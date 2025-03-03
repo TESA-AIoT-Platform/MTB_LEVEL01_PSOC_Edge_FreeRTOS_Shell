@@ -1,0 +1,242 @@
+#! armclang -E --target=arm-arm-none-eabi -mcpu=cortex-m55 -xc
+; command above MUST be in first line (no comment above!)
+
+/***************************************************************************//**
+* \file pse84_ns_flash.sct
+* \version 1.0.0
+*
+* scatter file for the armclang C compiler.
+*
+* The main purpose of this file is to describe how the sections in the
+* input files should be mapped into the output file, and to control the memory
+* layout of the output file.
+*
+* \note The entry point location starts at 0x0200E000. The valid
+* application image should be placed there.
+*
+* \note The linker files included with the PDL template projects must be generic
+* and handle all common use cases. Your project may not use every section
+* defined in the linker files. In that case you may see warnings during the
+* build process. In your project, you can simply comment out or remove the
+* relevant code in the linker file.
+*
+********************************************************************************
+* \copyright
+* Copyright (c) (2020-2023), Cypress Semiconductor Corporation (an Infineon company) or
+* an affiliate of Cypress Semiconductor Corporation.
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*******************************************************************************/
+#include "../../COMPONENT_CM33/TOOLCHAIN_ARM/pse84_common.h"
+
+/*--------------------- Stack / Heap Configuration ---------------------------
+; <h> Stack / Heap Configuration
+;   <o0> Stack Size (in Bytes) <0x0-0xFFFFFFFF:8>
+;   <o1> Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
+; </h>
+ *----------------------------------------------------------------------------*/
+
+/* To set stack size in application add makefile ldflags: --predefine="-DAPP_MSP_STACK_SIZE=0x2000" */
+#ifdef APP_MSP_STACK_SIZE
+#define __STACK_SIZE    APP_MSP_STACK_SIZE
+#else
+#define __STACK_SIZE    MSP_STACK_SIZE
+#endif
+
+
+#define CODE_XIP0_OFFSET            XIP0_CM55NS_APP_OFFSET
+#define CODE_XIP0_VMA               XIP0_NS_SAHB_START + CODE_XIP0_OFFSET
+#define CODE_XIP0_LMA               XIP0_NS_SAHB_START + CODE_XIP0_OFFSET
+#define CODE_XIP0_SIZE              XIP0_CM55NS_APP_SIZE
+
+#define CODE_RRAM_OFFSET            RRAM_CM55NS_APP_OFFSET
+#define CODE_RRAM_VMA               RRAM_NVM_MAIN_NS_CBUS_START + CODE_RRAM_OFFSET
+#define CODE_RRAM_LMA               RRAM_NVM_MAIN_NS_CBUS_START + CODE_RRAM_OFFSET
+#define CODE_RRAM_SIZE              RRAM_CM55NS_APP_SIZE
+
+#define CODE_ITCM_OFFSET            0x00000000
+#define CODE_ITCM_VMA               ITCM_NS_START
+#define CODE_ITCM_LMA               ITCM_NS_START
+#define CODE_ITCM_SIZE              ITCM_SIZE
+
+#define CODE_SOCMEMSRAM_OFFSET      SOCMEMSRAM_CM55NS_APP_OFFSET
+#define CODE_SOCMEMSRAM_VMA         SOCMEMSRAM_NS_SAHB_START + CODE_SOCMEMSRAM_OFFSET
+#define CODE_SOCMEMSRAM_LMA         SOCMEMSRAM_NS_SAHB_START + CODE_SOCMEMSRAM_OFFSET
+#define CODE_SOCMEMSRAM_SIZE        SOCMEMSRAM_CM55NS_APP_SIZE
+
+#define SRAM1_SHARED_VMA            (SRAM1_NS_SAHB_START + SRAM1_SIZE - SRAM1_SHARED_SIZE) + SRAM1_SHARED_CM33S_SIZE + SRAM1_SHARED_CM33NS_SIZE
+#define SRAM1_SHARED_LMA            (SRAM1_NS_SAHB_START + SRAM1_SIZE - SRAM1_SHARED_SIZE) + SRAM1_SHARED_CM33S_SIZE + SRAM1_SHARED_CM33NS_SIZE
+
+#define RESERVED_SOCMEMSRAM_VMA     (SOCMEMSRAM_NS_SAHB_START + SOCMEMSRAM_SHARED_OFFSET)
+#define RESERVED_SOCMEMSRAM_LMA     (SOCMEMSRAM_NS_SAHB_START + SOCMEMSRAM_SHARED_OFFSET)
+#define RESERVED_SOCMEMSRAM_SIZE    SOCMEMSRAM_SHARED_SIZE
+
+#define CODE_SRAM_OFFSET            SRAM1_CM55NS_APP_OFFSET
+#define CODE_SRAM_VMA               SRAM1_NS_SAHB_START + CODE_SRAM_OFFSET
+#define CODE_SRAM_LMA               SRAM1_NS_SAHB_START + CODE_SRAM_OFFSET
+#define CODE_SRAM_SIZE              SRAM1_CM55NS_APP_SIZE
+
+#define DATA_DTCM_VMA               DTCM_NS_START
+#define DATA_DTCM_LMA               DTCM_NS_START
+#define DATA_DTCM_SIZE              DTCM_SIZE
+
+#define DATA_SRAM_OFFSET            CODE_SRAM_OFFSET + CODE_SRAM_SIZE
+#define DATA_SRAM_VMA               SRAM1_NS_SAHB_START + DATA_SRAM_OFFSET
+#define DATA_SRAM_LMA               SRAM1_NS_SAHB_START + DATA_SRAM_OFFSET
+#define DATA_SRAM_SIZE              SRAM1_SIZE - SRAM1_SHARED_SIZE - CODE_SRAM_SIZE
+
+#define DATA_SOCMEMSRAM_OFFSET      SOCMEMSRAM_CM55NS_DATA_OFFSET
+#define DATA_SOCMEMSRAM_VMA         SOCMEMSRAM_NS_SAHB_START + DATA_SOCMEMSRAM_OFFSET
+#define DATA_SOCMEMSRAM_LMA         SOCMEMSRAM_NS_SAHB_START + DATA_SOCMEMSRAM_OFFSET
+#define DATA_SOCMEMSRAM_SIZE        SOCMEMSRAM_CM55NS_DATA_SIZE
+
+#define RAMVECTORS_ALIGNMENT        CM55_RAMVECTORS_ALIGNMENT
+
+/*-----------------------------------------------------------------------------------*/
+
+#define CODE_1_VMA                  CODE_XIP0_VMA
+#define CODE_1_LMA                  CODE_XIP0_LMA
+#define CODE_1_SIZE                 CODE_XIP0_SIZE
+
+#define CODE_2_VMA                  CODE_ITCM_VMA
+#define CODE_2_LMA                  CODE_ITCM_LMA
+#define CODE_2_SIZE                 CODE_ITCM_SIZE
+
+#define CODE_3_VMA                  CODE_SOCMEMSRAM_VMA
+#define CODE_3_LMA                  CODE_SOCMEMSRAM_LMA
+#define CODE_3_SIZE                 CODE_SOCMEMSRAM_SIZE
+
+#define CODE_4_VMA                  CODE_SRAM_VMA
+#define CODE_4_LMA                  CODE_SRAM_LMA
+#define CODE_4_SIZE                 CODE_SRAM_SIZE
+
+#define CODE_5_VMA                  CODE_RRAM_VMA
+#define CODE_5_LMA                  CODE_RRAM_LMA
+#define CODE_5_SIZE                 CODE_RRAM_SIZE
+
+#define DATA_1_VMA                  DATA_DTCM_VMA
+#define DATA_1_LMA                  DATA_DTCM_LMA
+#define DATA_1_SIZE                 DATA_DTCM_SIZE
+
+#define DATA_2_VMA                  DATA_SOCMEMSRAM_VMA
+#define DATA_2_LMA                  DATA_SOCMEMSRAM_LMA
+#define DATA_2_SIZE                 DATA_SOCMEMSRAM_SIZE
+
+#define SHARED_MEM0_VMA             SRAM1_SHARED_VMA
+#define SHARED_MEM0_LMA             SRAM1_SHARED_LMA
+#define SHARED_MEM0_SIZE            SRAM1_SHARED_SIZE
+
+#define SHARED_MEM1_VMA             RESERVED_SOCMEMSRAM_VMA
+#define SHARED_MEM1_LMA             RESERVED_SOCMEMSRAM_LMA
+#define SHARED_MEM1_SIZE            RESERVED_SOCMEMSRAM_SIZE
+
+#define SOCMEMSRAM_GPUBUF_VMA       (SOCMEMSRAM_NS_SAHB_START + SOCMEMSRAM_GPUBUF_OFFSET)
+#define GPU_BUF_VMA                  SOCMEMSRAM_GPUBUF_VMA
+#define GPU_BUF_LMA                  SOCMEMSRAM_GPUBUF_VMA
+#define GPU_BUF_SIZE                 SOCMEMSRAM_GPUBUF_SIZE
+
+#define __app_text1_vma__           CODE_1_VMA
+
+#define __app_text2_vma__           CODE_2_VMA
+
+#define __app_text3_vma__           CODE_3_VMA
+
+#define __app_text4_vma__           CODE_4_VMA
+
+#define __app_text5_vma__           CODE_5_VMA
+
+#define __data1_vma__               DATA_1_VMA
+#define __data2_vma__               DATA_2_VMA
+/*
+;------------- <<< end of configuration section >>> ---------------------------
+*/
+
+/*----------------------------------------------------------------------------
+  User Stack & Heap boundary definition
+ *----------------------------------------------------------------------------*/
+#define __STACK_TOP    (DATA_1_VMA + DATA_1_SIZE)    /* starts at end of DTCM */
+#define __HEAP_BASE    (AlignExpr(+0, 8))           /* starts after data_2 section, 8 byte aligned */
+#define __HEAP_SIZE (DATA_2_SIZE - (DATA_2_VMA -__HEAP_BASE))
+/*----------------------------------------------------------------------------
+  Scatter File Definitions definition
+ *----------------------------------------------------------------------------*/
+
+#define __app_text1_vma__ CODE_1_VMA
+#define __app_text1_lma__ CODE_1_LMA
+
+  lr_app_text1 __app_text1_lma__  CODE_1_SIZE  {       ; load region size_region
+    appText_1 __app_text1_vma__ CODE_1_SIZE  {              ; load address = execution address
+    *.o (RESET, +First)
+    *(InRoot$$Sections)
+;   *(Veneer$$CMSE)                           ; uncomment for secure applications
+    .ANY (+RO)
+    .ANY (+XO)
+    EXCLUDE(*cy_smif.*, *cy_syslib.*, *cy_syslib_ext.*, *cy_smif_memslot.*, *cy_smif_sfdp.*, *cy_smif_hb_flash.*, *cyhal_qspi.*)
+    }
+
+    appText_2 __app_text2_vma__ CODE_2_SIZE {
+      *(.cy_itcm)
+      cy_smif.* (+RO)
+      cy_syslib.* (+RO)
+      cy_syslib_ext.* (+RO)
+      cy_smif_memslot.* (+RO)
+      cy_smif_sfdp.* (+RO)
+      cy_smif_hb_flash.* (+RO)
+      cyhal_qspi.* (+RO)
+    }
+
+    appText_3 __app_text3_vma__ {
+      *(.cy_socmem_code)
+    }
+    appText_4 __app_text4_vma__ {
+      *(.cy_sram1_code)
+      *(.cy_ramfunc)
+    }
+
+    data_1 __data1_vma__ DATA_1_SIZE  {  ; RW data
+      .ANY (+RW +ZI)
+    }
+
+    ; Place variables in the section that should not be initialized during the
+    ; device startup.
+    data_1_noinit +0 UNINIT
+    {
+        * (.noinit)
+		* (.bss.noinit)
+        * (.bss.noinit.RESET_RAM)
+    }
+
+    data_2 __data2_vma__ DATA_2_SIZE {
+      . = ALIGN(4);
+      *(.cy_socmem_data)
+      . = ALIGN(4);
+    }
+
+    ARM_LIB_HEAP  __HEAP_BASE EMPTY __HEAP_SIZE  {   ; Reserve empty region for heap
+    }
+
+   reserved_socmem SHARED_MEM1_LMA EMPTY SHARED_MEM1_SIZE {
+      
+    } 
+
+    ARM_LIB_STACK __STACK_TOP EMPTY -__STACK_SIZE {   ; Reserve empty region for stack
+    }
+    cy_sharedmem SHARED_MEM0_LMA SHARED_MEM0_SIZE {
+      *(.cy_sharedmem)
+    }
+
+    cy_gpu_buf GPU_BUF_LMA GPU_BUF_SIZE {
+      *(.cy_gpu_buf)
+    }
+  }
