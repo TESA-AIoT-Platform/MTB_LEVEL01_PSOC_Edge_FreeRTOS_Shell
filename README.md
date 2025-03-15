@@ -29,11 +29,19 @@ This Code Example has a three project structure - CM33 Secure, CM33 Non-Secure, 
 
 This example uses the board's default configuration. See the kit user guide to ensure that the board is configured correctly.
 
+## Hardware setup
+
+This example uses the board's default configuration. See the kit user guide to ensure that the board is configured correctly.
+
 Please ensure below jumper and pin configuration on board.
+
 - Ensure BOOT SW should be in 'High'/ON position. 
-    > **Note:** For KIT_PSOCE84_EVK rev. **, BOOT SW pin is BOOT.1 (P17.6).
+> **Note:**
+> 
+> For KIT_PSOCE84_EVK rev. **, BOOT SW pin is BOOT.1 (P17.6).
+
 - Ensure J20 and J21 should be in Tristate/Not-Connected (NC) position.
 
 ---------------------------------------------------------
 
-© Thai Embedded Systems Association 2025
+&copy; 2025 Thai Embedded Systems Association
